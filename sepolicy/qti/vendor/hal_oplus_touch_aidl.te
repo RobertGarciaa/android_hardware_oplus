@@ -19,3 +19,7 @@ unix_socket_send(hal_oplus_touch_aidl, oplus_touchdaemon, oplus_touchdaemon)
 
 rw_dir_file(hal_oplus_touch_aidl, oplus_touchdaemon_device)
 rw_dir_file(hal_oplus_touch_aidl, vendor_proc_display)
+
+allow hal_oplus_touch_aidl proc_touchpanel_double_tap_enable:dir search;
+allow hal_oplus_touch_aidl proc_touchpanel_double_tap_enable:file rw_file_perms;
+
