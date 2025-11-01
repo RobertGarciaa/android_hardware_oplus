@@ -16,6 +16,9 @@ type vendor_proc_wireless, fs_type, proc_type;
 # Display
 type vendor_proc_display, fs_type, proc_type;
 
+# Double tap to wake
+type proc_touchpanel_double_tap_enable, fs_type, proc_type;
+
 # Engineering
 type vendor_proc_engineer, fs_type, proc_type;
 
